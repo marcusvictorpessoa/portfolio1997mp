@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+*::-webkit-scrollbar {
+  width: 12px;               
+}
+
+*::-webkit-scrollbar-track {
+  background: #d9dbdb;        
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #82837e;
+  border-radius: 20px;
+  border: 3px solid #d9dbdb;  
+}
+*/
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Ubuntu', sans-serif;
+  transition: 0.5s ease-in-out;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.snowflake {
+  position: absolute;
+  top: -50px;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  filter: blur(1px);
+  animation: snowfall 15s linear infinite;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+@keyframes snowfall {
+  100% {
+    transform: translateY(105vh) scale(0.4);
+  }
+}
