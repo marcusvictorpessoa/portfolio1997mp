@@ -15,7 +15,7 @@ export const ProjectsContainer = styled.div`
 export const Card = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 80%;
     height: 80%;
     @media (max-width:950px){
